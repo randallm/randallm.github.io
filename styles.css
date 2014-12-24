@@ -1,0 +1,21 @@
+body {
+  max-width: 340px;
+  text-align: center;
+  margin: 10% auto 0 auto;
+  background: #212121;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #B6B6B6;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.name {
+  color: #FFC107;
+}
+
+a {
+  color: #2196F3;
+  text-decoration: none;
+  border-bottom: 1px dotted #2196F3;
+}
