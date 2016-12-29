@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Drawing App</title>
+    <style>
+      body {
+        width: 100%;
+        margin: 0 auto;
+        font-family: 'Helvetica Neue', sans-serif;
+      }
+
+      canvas {
+        border: 1px solid #000;
+        display: block;
+        margin: 0 auto;
+      }
+
+      header {
+        text-align: center;
+        padding: 1em;
+      }
+
+      h1, h2, h3 {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>ClickTime Internship Challenge</h2>
+      <h3>by Randall Ma</h3>
+    </header>
+
+    <canvas class="drawingCanvas" width="300" height="300"></canvas>
+
+    <script src="scripts/socket.io.js" type="text/javascript"></script>
+    <script src="scripts/jquery-3.1.1.js" type="text/javascript"></script>
+    <script src="scripts/app.js" type="text/javascript"></script>
+  </body>
+</html>
